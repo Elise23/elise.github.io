@@ -93,25 +93,22 @@
 
 			}
 
-	// Main Sections: Two.
-
-		// Lightbox gallery.
-			//$window.on('load', function() {
-
-			//	$('#two').poptrox({
-			//		caption: function($a) { return $a.next('h3').text(); },
-			//		overlayColor: '#2c2c2c',
-			//		overlayOpacity: 0.85,
-			//		popupCloserText: '',
-			//		popupLoaderText: '',
-			//		selector: '.work-item a.image',
-			//		usePopupCaption: true,
-			//		usePopupDefaultStyling: false,
-			//		usePopupEasyClose: false,
-			//		usePopupNav: true,
-			//		windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-			//	});
-
-			//});
-
 })(jQuery);
+
+/* Part One */
+
+function myFunction() {
+	var dots = document.getElementById("dots");
+	var moreText = document.getElementById("more");
+	var btnText = document.getElementById("myBtn");
+
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "Learn more";
+		moreText.style.display = "none";
+	} else {
+		dots.style.display = "none";
+		btnText.innerHTML = "Read less";
+		moreText.style.display = "inline";
+	}
+}
