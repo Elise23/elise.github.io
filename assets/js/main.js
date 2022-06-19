@@ -112,3 +112,12 @@ function myFunction() {
 		moreText.style.display = "inline";
 	}
 }
+
+/* Part Two : popup */
+
+function toggle1() {
+	var blur = document.getElementById('blur');
+	blur.classList.toggle('active')
+	var popup = document.getElementById('popup1');
+	popup.classList.toggle('active')
+}
