@@ -8,7 +8,7 @@ Credits:
                 HTML5 UP (html5up.net)
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		Pexel (pexel.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
